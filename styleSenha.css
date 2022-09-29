@@ -3,7 +3,7 @@ body{
     margin: 0;
     background-color: #170132;
 }
-#crieConta {
+#senha {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,22 +20,13 @@ body{
 
 .card-header {
     padding-bottom: 50px;
+    opacity: 0.8;
     color: #85ae72;
-}
-
-.card-header::after {
-    content: "";
-    width: 220px;
-    height: 1px;
-    background-color:#85ae72;
-    display: block;
-    margin-top: -17px;
-    margin-left: -5px;
 }
 
 .card-content label {
     color:#85ae72;
-    font-size: 15px;
+    font-size: 12px;
     opacity: 0.8;
 }
 

@@ -88,21 +88,76 @@ header ul li a:hover{
 }
 
 .videos{
-    display:flex;
-    justify-content: space-between;
+    display:inline-block;
+    text-align:justify;
     border: 1px solid #85ae72;
+    border-radius: 8px;
+    background-color: #361542;
     margin-top: 50px;
     margin-bottom: 100px;
+    margin-right: 20px;
     padding: 10px;
+    width:600px;
+    height:auto;
    
 }
 .title-videos{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    background-color: #361542;
+    font-weight: 700;
     font-size:20px;
     margin-top: 10px;
     padding:10px !important;
     margin-bottom: 10px !important;
+}
+.description-videos{
+    margin-top: 10px;
+    padding:0 5px;
+    border:none;
+    outline: none;
+    color:#85ae72;
+    font-size:15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    background-color: #361542;
+}
+.description-videos-number-acess{
+    margin-top: 10px;
+    padding:0 5px;
+    border:none;
+    outline: none;
+    color:#85ae72;
+    font-size:12px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    background-color: #361542;
+    
+}
+.description-videos-watched{
+    margin-top: 10px;
+    padding:0 5px;
+    border:none;
+    outline: none;
+    color:#85ae72;
+    font-size:12px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    background-color: #361542;
+}
+.description-videos-avaliation{
+    margin-top: 10px;
+    padding:0 5px;
+    border:none;
+    outline: none;
+    color:#85ae72;
+    font-size:12px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    background-color: #361542;
 }
 
 footer{

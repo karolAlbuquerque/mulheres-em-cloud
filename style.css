@@ -61,7 +61,7 @@ body{
     flex-direction: column;
 }
 
-.card-footer .submit{
+.button{
     width: 100%;
     height: 40px;
     background-color: #85ae72;

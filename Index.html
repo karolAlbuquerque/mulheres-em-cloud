@@ -9,24 +9,24 @@
 </head>
 <body>
     <div id="login">
-        <form class="card">
+        <form class="card" action="/clientes/login" method="POST">
             <div class="card-header">
                 <h2>Login</h2>
             </div>
             <div class="card-content">
                 <div class="card-content-area">
                     <label for="usuario">Usuário</label>
-                    <input type="text" id="usuario" autocomplete="off">
+                    <input type="text" name="nomeUsuario" id="usuario" autocomplete="off">
                 </div>
                 <div class="card-content-area">
                     <label for="password">Senha</label>
-                    <input type="password" id="password" autocomplete="off">
+                    <input type="password" name="senha" id="password" autocomplete="off">
                 </div>
             </div>
             <div class="card-footer">
-                <input type="submit" value="login" class="submit"/>
+                <a href="home.html"><button type="button" class="button">Login</button></a>
                 <a href="criarConta.html" class="criar_conta">Crie sua conta</a> 
-                <a href="#" class="recuperar_senha">Esqueceu a senha?</a>
+                <a href="esqueceuSenha.html" class="recuperar_senha">Esqueceu a senha?</a>
             </div>
         </form>
     </div>    
